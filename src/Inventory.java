@@ -18,7 +18,6 @@ public class Inventory {
         System.out.printf("%-11s %-15s %-5s %10s\n", "Make", "Model", "Year", "Price (R$)");
         System.out.printf("%-11s %-15s %-5s %10s\n", "", "", "", "");
         for(Car car : inventory) {
-            // System.out.println(car.make + " " + car.model + " " +  car.year + " Price: R$ " + " " + car.price);
             System.out.printf("%-11s %-15s %-5d %10.2f\n", car.make, car.model, car.year, car.price);
         }
         System.out.println();

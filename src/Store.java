@@ -8,11 +8,11 @@ public class Store {
 
     public void addCustomer(Customer customer) {
         customers.add(customer);
-        System.out.println("Customer added to database.\n");
+        // System.out.println("Customer added to database.\n");
     }
 
     public void newSale(Sale sale) {
         sales.add(sale);
-        System.out.println("Sale added.\n");
+        // System.out.println("Sale added.\n");
     }
 }

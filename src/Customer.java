@@ -4,7 +4,7 @@ public class Customer {
     String cpf;
     String name;
 
-    public ArrayList<Car> cars = new ArrayList<>();
+    ArrayList<Car> cars = new ArrayList<>();
 
     public Customer(String name, String cpf) {
         this.name = name;
